@@ -1,8 +1,9 @@
+- name: Github
+  link: 'https://github.com/wyfeng1020'
+  social_icon: Github
+  new_window: true
 - name: Facebook
   link: 'https://www.facebook.com/comfusionllc'
   social_icon: Facebook
   new_window: true
-- name: RSS
-  link: '/feed.xml'
-  social_icon: RSS
-  new_window: true
+
