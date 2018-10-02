@@ -7,12 +7,7 @@ layout: default
       <header>
         <h1>{{ post.title }}</h1>
         <p class="post-meta">
-          {% if post.author %}
-            {{ post.author }}
-          {% endif %}
-          {% if page.meta %}
-            {{ page.meta }}
-          {% endif %}
+          <p class="post-meta">{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </p>
       </header>
     
