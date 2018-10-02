@@ -6,12 +6,19 @@ layout: default
     {% for post in site.posts limit:5 %}
       <header>
         <h1>{{ post.title }}</h1>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+          {% if post.author %}
+            {{ post.author }}
+          {% endif %}
+          {% if page.meta %}
+            {{ page.meta }}
+          {% endif %}</p>
       </header>
+    
       <section>
         {{ post.content }}
         <p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></p>
       </section>
+    
     {% endfor %}
   </section>
 </div>
