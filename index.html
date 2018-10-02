@@ -3,14 +3,16 @@ layout: default
 ---
 <div id="main">
   <section>
+    {% for post in site.posts %}
       <header>
-        <h1>{{ site.posts.News.title }}</h1>
-        <p class="post-meta">{% if site.posts.News.author %} • {{ site.posts.News.author }}{% endif %}{% if site.posts.News.meta %} • {{ site.posts.News.meta }}{% endif %}</p>
+        <h1>{{ post.title }}</h1>
+        <p class="post-meta">{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
       </header>
       <section>
-        {{ site.posts.News.content }}
-        <p class="editor-link"><a href="cloudcannon:collections/{{ site.posts.News.path }}" class="button"><strong>&#9998;</strong> Edit post</a></p>
+        {{ post.content }}
+        <p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></p>
       </section>
+    {% endfor %}
   </section>
 
 </div>
