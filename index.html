@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="main">
   <section>
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts %}
       <header>
         <h1>{{ post.title }}</h1>
           {% if post.author %}
