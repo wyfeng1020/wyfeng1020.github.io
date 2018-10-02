@@ -1,5 +1,5 @@
 locale: "en-US"
-title: Yufeng Wang's Homepage # Title of your site
+title: Yufeng Wang # Title of your site
 url: "https://github.com/wyfeng1020" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
