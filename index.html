@@ -6,12 +6,14 @@ layout: default
     {% for post in site.posts %}
       <header>
         <h1>{{ post.title }}</h1>
+        <p class="post-meta">
           {% if post.author %}
             {{ post.author }}
           {% endif %}
           {% if page.meta %}
             {{ page.meta }}
-          {% endif %}</p>
+          {% endif %}
+        </p>
       </header>
     
       <section>
