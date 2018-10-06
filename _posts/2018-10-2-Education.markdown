@@ -3,7 +3,7 @@ layout: post
 title: Education
 ---
 
-2018.10 - present, joint-training Ph.D. Student in EECS, University of California, Merced
+2018.10 - present, joint-training Ph.D. student in EECS, University of California, Merced
 
 2016.09 - present, Ph.D. Candidate in School of Electronics and Information Engineering, Beihang University
 
