@@ -3,4 +3,4 @@ layout: post
 title: News
 ---
 
-2018.10:  Start to visit VLLab, UC Merced as a joint-training Ph.D. student, supervised by Ming-Hsuan Yang
+2018.10:  Start to visit VLLab at UC Merced as a joint-training Ph.D. student, supervised by Ming-Hsuan Yang
