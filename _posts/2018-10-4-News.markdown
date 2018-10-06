@@ -3,7 +3,6 @@ layout: post
 title: News
 ---
 
-2018.10:  Start to visit VLLab at UC Merced as a joint-training Ph.D. student
-
+2018.10:  Start to visit VLLab at UC Merced as a joint-training Ph.D. student  
 2016.09:  Start my PhD at Beihang University
 
